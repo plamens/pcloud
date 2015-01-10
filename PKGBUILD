@@ -1,5 +1,5 @@
 # Maintainer: Plamen Semerdzhiev <pl.semerdzhiev@gmail.com>
-pkgname=pcloud
+pkgname=pcloud-git
 pkgver=2.0.0
 pkgrel=1
 pkgdesc="pCloud Drive client"
@@ -11,7 +11,7 @@ makedepends=('tar')
 provides=('psyncgui')
 conflicts=()
 replaces=()
-source=('pCloud_Linux_amd64_2.0.0.deb')
+source="git://github.com/plamens/pcloud.git"
 md5sums=('SKIP')
 
 package() {
