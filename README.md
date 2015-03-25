@@ -1,1 +1,1 @@
-# pcloud
+# pCloud for archlinux
